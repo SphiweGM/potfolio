@@ -1,0 +1,21 @@
+{
+  "name": "potfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "pg": "^8.13.0",
+    "potfolio": "file:"
+  }
+}
